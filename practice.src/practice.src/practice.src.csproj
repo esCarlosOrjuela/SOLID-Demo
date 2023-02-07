@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="SingleResponsibilityPrinciple\" />
+    <None Remove="SingleResponsibilityPrinciple\Correct\" />
+    <None Remove="SingleResponsibilityPrinciple\Incorrect\" />
+    <None Remove="Open_ClosedPrinciple\" />
+    <None Remove="Open_ClosedPrinciple\Correct\" />
+    <None Remove="Open_ClosedPrinciple\Incorrect\" />
+    <None Remove="LiskovSubtitutionPrinciple\" />
+    <None Remove="InterfaceSegregationPrinciple\" />
+    <None Remove="InterfaceSegregationPrinciple\Incorrect\" />
+    <None Remove="InterfaceSegregationPrinciple\Correct\" />
+    <None Remove="DependencyInversionPrinciple\" />
+    <None Remove="DependencyInversionPrinciple\Incorrect\" />
+    <None Remove="DependencyInversionPrinciple\Correct\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SingleResponsibilityPrinciple\" />
+    <Folder Include="SingleResponsibilityPrinciple\Correct\" />
+    <Folder Include="SingleResponsibilityPrinciple\Incorrect\" />
+    <Folder Include="Open_ClosedPrinciple\" />
+    <Folder Include="Open_ClosedPrinciple\Correct\" />
+    <Folder Include="Open_ClosedPrinciple\Incorrect\" />
+    <Folder Include="LiskovSubtitutionPrinciple\" />
+    <Folder Include="InterfaceSegregationPrinciple\" />
+    <Folder Include="InterfaceSegregationPrinciple\Incorrect\" />
+    <Folder Include="InterfaceSegregationPrinciple\Correct\" />
+    <Folder Include="DependencyInversionPrinciple\" />
+    <Folder Include="DependencyInversionPrinciple\Incorrect\" />
+    <Folder Include="DependencyInversionPrinciple\Correct\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig" />
+  </ItemGroup>
+</Project>
